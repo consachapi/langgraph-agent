@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Will <consachapi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.2.60"
+langchain-openai = "^0.2.14"
+python-dotenv = "^1.0.1"
+langgraph-cli = {extras = ["inmem"], version = "^0.1.65"}
+langchain-ollama = "^0.2.2"
+pydantic = "^2.10.4"
+langchain-core = "^0.3.28"
+typing-extensions = "^4.12.2"
+langchain-community = "^0.3.13"
+chromadb = "^0.5.23"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
